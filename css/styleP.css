@@ -1,0 +1,56 @@
+body{
+	background-color: #D2D2D2;
+	font: 11px Verdana;
+	color: #696969;
+}
+
+#wrapper{
+	width: 650px;
+	background-color: #f4f4f4;
+	margin: 30px auto;
+}
+
+#header{
+	height: 75px;
+	background: url(../images/redHeader.png) no-repeat;
+	position: relative;
+	z-index: -1;
+}
+
+#content{
+	padding: 20px 30px;
+}
+
+#new{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#button{
+	position: absolute;
+	right: 294px;
+	top: -14px;
+	z-index:1;
+}
+
+#operator{
+	position: fixed;
+	width:22px;
+	height:180px;
+	top:250px;
+	left:0;
+}
+
+#bird{
+	position: absolute;
+	width:106px;
+	height:90px;
+	left:250px;
+	top:-3px;
+	z-index:2;
+}
+
+#operator img {
+	border: none;
+}
